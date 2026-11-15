@@ -1,0 +1,26 @@
+# OS files
+.DS_Store
+Thumbs.db
+__MACOSX/
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.swp
+
+# Dependencies and build output (if you add a build step later)
+node_modules/
+dist/
+build/
+
+# Env and secrets
+.env
+.env.*
+
+# Logs and archives
+*.log
+*.zip
+
+# Local scratch files
+*.tmp
+*.bak
