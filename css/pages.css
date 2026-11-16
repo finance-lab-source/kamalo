@@ -2,11 +2,6 @@
 body.legal{background:#f1f2f3 url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='80'%3E%3Cellipse cx='30' cy='20' rx='26' ry='13' fill='%23e6e7e9'/%3E%3Cellipse cx='90' cy='60' rx='26' ry='13' fill='%23e6e7e9'/%3E%3C/svg%3E")}
 .legal nav .wrap{gap:24px}
 .legal nav ul{margin-left:auto}
-.social{display:flex;gap:12px}
-.social a{display:block;width:32px;height:32px;color:var(--white);transition:color .2s}
-.social a:hover{color:var(--gold)}
-.social svg{width:100%;height:100%}
-@media(max-width:1000px){.social{display:none}}
 .band{background:var(--black);height:200px}
 .card{max-width:960px;margin:-110px auto 80px;background:var(--white);border-radius:28px;padding:64px 72px;box-shadow:0 24px 60px rgba(0,0,0,.18)}
 .card h1{font-size:clamp(2rem,4.6vw,3.2rem);color:var(--gold-d);text-align:center}
@@ -20,3 +15,21 @@ body.legal{background:#f1f2f3 url("data:image/svg+xml,%3Csvg xmlns='http://www.w
 .contact dt{font-weight:800}
 .contact dd{color:var(--mute)}
 @media(max-width:700px){.card{margin:-110px 16px 56px;padding:40px 24px;border-radius:20px}}
+.doc h3{font-size:1rem;font-weight:800;margin:24px 0 6px}
+.doc ul{display:block;list-style:disc;margin:10px 0 0;padding-left:1.4em}
+.doc ul ul{display:block;list-style:circle;margin-top:6px}
+.doc li{color:#2b2b2b;line-height:1.7;margin:6px 0}
+.doc p+p,.doc ul+p{margin-top:12px}
+.doc h2+p,.doc h2+ul{margin-top:0}
+.doc a{color:var(--gold-d);text-decoration:underline;word-break:break-word}
+.doc .tbl{overflow-x:auto;margin:16px 0}
+.doc table{width:100%;border-collapse:collapse;font-size:.95rem}
+.doc th,.doc td{border:1px solid #e0e0e0;padding:10px 14px;text-align:left;line-height:1.5}
+.doc th{background:#f5f5f5;font-weight:800}
+.contact.meta{margin:0 0 8px}
+.contact a{color:inherit;text-decoration:underline}
+.doc-end{margin-top:48px;padding-top:24px;border-top:1px solid #e6e6e6;text-align:center;color:var(--mute)}
+.doc .contact-form{margin:28px auto 0;box-shadow:none;border:1px solid #e6e6e6}
+.form-alt{text-align:center;font-size:.85rem;margin-top:14px}
+.form-alt a{text-decoration:underline}
+footer .addr{margin-top:14px;font-size:.85rem;opacity:.8}
